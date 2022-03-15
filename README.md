@@ -4,9 +4,9 @@ This repository contains the code for Conversational Iterface (COMPSCI 5094) Ass
 
 #### Contents
 * [Problem Statement](#problem-statement)
-* [Conceptualisation](#conceptualisation)
 * [Usage](#usage)
 * [Changelog](#changelog)
+* [References](#references)
 
 ## [Problem Statement](#conversational-interfaces)
 
