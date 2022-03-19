@@ -1,13 +1,8 @@
 repos:
 -   repo: https://github.com/addy1997/conversational-interfaces
-    rev: v4.1.0
+    rev:
     hooks:
     -   id: check-json
     -   id: check-yaml
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
--   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.11.0
-    hooks:
-    -   id: eslint
-        args: [--fix]
