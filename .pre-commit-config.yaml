@@ -1,8 +1,0 @@
-repos:
--   repo: https://github.com/addy1997/conversational-interfaces
-    rev:
-    hooks:
-    -   id: check-json
-    -   id: check-yaml
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
