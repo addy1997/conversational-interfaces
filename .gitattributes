@@ -1,0 +1,12 @@
+# Source files
+# ============
+
+*.py     text diff=python
+*.pyx    text diff=python
+
+# Binary files
+# ============
+*.pyc    binary export-ignore
+
+# Jupyter notebook
+*.ipynb  text
