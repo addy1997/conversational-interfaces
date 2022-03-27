@@ -17,7 +17,7 @@
 * GetWeather{"date": "March 7th"}
     - utter_working_on_it
     - action_weather
-* GetWeather{"city": "Dixon", "date": "March 7th"}
+* GetWeather{"location": "Dixon", "date": "March 7th"}
     - action_weather
 * goodbye
    - utter_goodbye
@@ -25,7 +25,7 @@
 ## story_2
 * greet
     - utter_greet
-* GetWeather{"city": "sonoma", "date": "9th of this month"}
+* GetWeather{"location": "sonoma", "date": "9th of this month"}
     - action_weather
 * GetDetails{"request": "humidity"}
     - action_weather
@@ -38,11 +38,11 @@
 * GetWeather{"date": "March 14th"}
     - utter_working_on_it
     - action_weather
-* GetWeather{"city": "Mill Valley", "date": "March 14th"}
+* GetWeather{"location": "Mill Valley", "date": "March 14th"}
     - action_weather
 * GetDetails{"request": ["humidity", "wind"]}
     - action_weather
-* GetWeather{"city": "Palo Alto", "date": "next Tuesday"}
+* GetWeather{"location": "Palo Alto", "date": "next Tuesday"}
     - action_weather
 * goodbye
    - utter_goodbye
@@ -50,7 +50,7 @@
 ## story_4
 * greet
     - utter_greet
-* GetWeather{"city": "Mountain View"}
+* GetWeather{"location": "Mountain View"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -60,7 +60,7 @@
     - utter_greet
 * GetWeather{"date": "March 9th"}
     - action_weather
-* GetWeather{"city": "Yountville", "date": "March 9th"}
+* GetWeather{"location": "Yountville", "date": "March 9th"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -71,7 +71,7 @@
 * GetWeather{"date": "March 8th"}
     - utter_working_on_it
     - action_weather
-* GetWeather{"city": "Menlo Park", "date": "March 8th"}
+* GetWeather{"location": "Menlo Park", "date": "March 8th"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -81,11 +81,11 @@
     - utter_greet
 * GetWeather{date": "Thursday next week"}
     - action_weather
-* GetWeather{"city": "Sebastopol", "date": "Thursday next week"}
+* GetWeather{"location": "Sebastopol", "date": "Thursday next week"}
     - action_weather
 * GetDetails{"request": ["humidity", "wind"]}
     - action_weather
-* GetWeather{"city": "Mill Valley", "date": "Thursday next week"}
+* GetWeather{"location": "Mill Valley", "date": "Thursday next week"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -95,7 +95,7 @@
     - utter_greet
 * GetWeather{"date": "March 9th"}
     - action_weather
-* GetWeather{"city": "Fairfax", "date": "March 9th"}
+* GetWeather{"location": "Fairfax", "date": "March 9th"}
     - action_weather
 
 * goodbye
@@ -104,7 +104,7 @@
 ## story_9
 * greet
     - utter_greet
-* GetWeather{"city": "San Fran", "date": "4th of this month"}
+* GetWeather{"location": "San Fran", "date": "4th of this month"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -112,7 +112,7 @@
 ## story_10
 * greet
     - utter_greet
-* GetWeather{"city": "Novato", "date": "March 13th"}
+* GetWeather{"location": "Novato", "date": "March 13th"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -120,7 +120,7 @@
 ## story_11
 * greet
     - utter_greet
-* GetWeather{"city": "Campbell", "date": "March 1st"}
+* GetWeather{"location": "Campbell", "date": "March 1st"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -131,7 +131,7 @@
 * GetWeather{"date": "March 7th"}
     - utter_working_on_it
     - action_weather
-* GetWeather{"city": "San Jose", "date": "March 7th"}
+* GetWeather{"location": "San Jose", "date": "March 7th"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -142,7 +142,7 @@
 * GetWeather{"date": "the 7th"}
     - utter_working_on_it
     - action_weather
-* GetWeather{"city": "Ciudad de Mexico", "date": "the 7th"}
+* GetWeather{"location": "Ciudad de Mexico", "date": "the 7th"}
     - action_weather
 * GetDetails{"request": ["humidity", "wind"]}
     - action_weather
@@ -152,7 +152,7 @@
 ## story_14
 * greet
     - utter_greet
-* GetWeather{"city": "Hercules"}
+* GetWeather{"location": "Hercules"}
    - action_weather
 * goodbye
     - utter_goodbye
@@ -160,7 +160,7 @@
 ## story_15
 * greet
     - utter_greet
-* GetWeather{"city": "Millbrae", "date": "March 6th"}
+* GetWeather{"location": "Millbrae", "date": "March 6th"}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -170,11 +170,11 @@
     - utter_greet
 * GetWeather
     - action_weather
-* GetWeather{"city":"Berkeley"}
+* GetWeather{"location":"Berkeley"}
     - action_weather
-* GetWeather{"city": "Berkeley", "date": "March 6th"}
+* GetWeather{"location": "Berkeley", "date": "March 6th"}
     - action_weather
-* GetWeather{"city": "Long Beach", "date": "13th of March}
+* GetWeather{"location": "Long Beach", "date": "13th of March}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -182,7 +182,7 @@
 ## story_17
 * greet
     - utter_greet
-* GetWeather{"city": "calistoga", "date": "3rd of this month"}
+* GetWeather{"location": "calistoga", "date": "3rd of this month"}
     - action_weather
 * GetDetails{"request": "humidity"}
     - action_weather
@@ -192,7 +192,7 @@
 ## story_18
 * greet
     - utter_greet
-* GetWeather{"city": "Pleasant Hill", "date": "9th of March}
+* GetWeather{"location": "Pleasant Hill", "date": "9th of March}
     - action_weather
 * goodbye
     - utter_goodbye
@@ -200,7 +200,7 @@
 ## story_19
 * greet
     - utter_greet
-GetWeather{"city": "Hercules"}
+GetWeather{"location": "Hercules"}
    - action_weather
 * goodbye
     - utter_goodbye
@@ -208,7 +208,7 @@ GetWeather{"city": "Hercules"}
 ## story_20
 * greet
     - utter_greet
-* GetWeather{"city": "Hercules", "date": "Wednesday next week"}
+* GetWeather{"location": "Hercules", "date": "Wednesday next week"}
     - action_weather
 * GetDetails{"request": "wind"}
     - action_weather

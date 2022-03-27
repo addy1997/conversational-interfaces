@@ -86,7 +86,7 @@
                         "start": 7,
                         "end": 14,
                         "value": "Dixon",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 7,
@@ -104,7 +104,7 @@
                         "start": 9,
                         "end": 9,
                         "value": "sonoma",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 9,
@@ -146,7 +146,7 @@
                         "start": 14,
                         "end": 14,
                         "value": "Mill Valley",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 14,
@@ -176,7 +176,7 @@
                         "start": 21,
                         "end": 21,
                         "value": "Palo Alto",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 21,
@@ -195,7 +195,7 @@
                         "start": "",
                         "end": "",
                         "value": "Mountain View",
-                        "entity": "city"
+                        "entity": "location"
                     }
                 ]
             },
@@ -207,7 +207,7 @@
                         "start": 9,
                         "end": 9,
                         "value": "Yountville",
-                        "entity": "city"
+                        "entity": "location"
                     }
                 ]
             },
@@ -225,7 +225,7 @@
                         "start": 9,
                         "end": 9,
                         "value": "Yountville",
-                        "entity": "city"
+                        "entity": "location"
                     }
                 ]
             },
@@ -249,14 +249,14 @@
                         "start": 8,
                         "end": 15,
                         "value": "Menlo Park",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 8,
                         "end": 15,
                         "value": "March 8th",
                         "entity": "date"
-                    }      
+                    }
                 ]
             },
             {
@@ -279,7 +279,7 @@
                         "start": "",
                         "end": "",
                         "value": "Sebastopol",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": "",
@@ -309,7 +309,7 @@
                         "start": 9,
                         "end": 16,
                         "value": "mill valley",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 9,
@@ -327,7 +327,7 @@
                         "start": 9,
                         "end": 16,
                         "value": "Fairfax",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 9,
@@ -345,7 +345,7 @@
                         "start": 4,
                         "end": 11,
                         "value": "San Fran",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 4,
@@ -363,7 +363,7 @@
                         "start": 13,
                         "end": 13,
                         "value": "Novato",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 13,
@@ -381,7 +381,7 @@
                         "start": 1,
                         "end": 1,
                         "value": "Campbell",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 1,
@@ -389,7 +389,7 @@
                         "value": "March 1st",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "Please check the weather on March 7th.",
@@ -401,7 +401,7 @@
                         "value": "March 7th",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "Please check San Jose.",
@@ -411,7 +411,7 @@
                         "start": 7,
                         "end": 14,
                         "value": "San Jose",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 7,
@@ -441,7 +441,7 @@
                         "start": 7,
                         "end": 14,
                         "value": "Ciudad de Mexico",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 7,
@@ -449,7 +449,7 @@
                         "value": "the 7th",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "What will the humidity be? Will it be windy?",
@@ -471,9 +471,9 @@
                         "start": "",
                         "end": "",
                         "value": "Paris",
-                        "entity": "city"
+                        "entity": "location"
                     }
-                ]    
+                ]
             },
             {
                 "text": "I will go to Millbrae soon. Can you check the weather in there on March 6th?",
@@ -483,7 +483,7 @@
                         "start": 6,
                         "end": 6,
                         "value": "Millbrae",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 6,
@@ -491,12 +491,12 @@
                         "value": "March 6th",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "I would like to check the weather.",
                 "intent": "GetWeather",
-                "entities": []    
+                "entities": []
             },
             {
                 "text": "I would like Berkeley.",
@@ -506,9 +506,9 @@
                         "start": "",
                         "end": "",
                         "value": "Berkeley",
-                        "entity": "city"
+                        "entity": "location"
                     }
-                ]    
+                ]
             },
 
             {
@@ -519,7 +519,7 @@
                         "start": 6,
                         "end": 6,
                         "value": "Berkeley",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 6,
@@ -527,7 +527,7 @@
                         "value": "March",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "What about Long Beach on the 13th of March?",
@@ -537,7 +537,7 @@
                         "start": 13,
                         "end": 13,
                         "value": "Long Beach",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 13,
@@ -545,7 +545,7 @@
                         "value": "13th of March",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "i want to check the weather in calistoga on the 3rd of this month.",
@@ -555,7 +555,7 @@
                         "start": 3,
                         "end": 10,
                         "value": "calistoga",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 3,
@@ -563,7 +563,7 @@
                         "value": "3rd of this month",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "how humid will it be?",
@@ -575,7 +575,7 @@
                         "value": "humidity",
                         "entity": "request"
                     }
-                ]    
+                ]
             },
             {
                 "text": "What will the weather be like in Pleasant Hill on the 9th of March?",
@@ -585,7 +585,7 @@
                         "start": 9,
                         "end": 9,
                         "value": "Pleasant Hill",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 9,
@@ -593,7 +593,7 @@
                         "value": "9th of March",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "I would like to check the weather in Hercules.",
@@ -603,9 +603,9 @@
                         "start": 10,
                         "end": 17,
                         "value": "Hercules",
-                        "entity": "city"
+                        "entity": "location"
                     }
-                ]    
+                ]
             },
             {
                 "text": "Can you tell me what the weather is suppose to be like on Wednesday next week in Hercules?",
@@ -615,7 +615,7 @@
                         "start": 12,
                         "end": 18,
                         "value": "Hercules",
-                        "entity": "city"
+                        "entity": "location"
                     },
                     {
                         "start": 12,
@@ -623,7 +623,7 @@
                         "value": "Wednesday next week",
                         "entity": "date"
                     }
-                ]    
+                ]
             },
             {
                 "text": "Will it be windy?",
@@ -635,7 +635,7 @@
                         "value": "wind",
                         "entity": "request"
                     }
-                ]    
+                ]
             }
         ]
     }
