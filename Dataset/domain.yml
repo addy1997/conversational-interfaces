@@ -1,0 +1,49 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - GetWeather
+  - GetDetails
+
+entities:
+  - location
+  - date
+  - request
+
+slots:
+  location:
+    type: text
+
+responses:
+  utter_greet:
+    - text: "Hey there!"
+    - text: "Hi!"
+    - text: "Hello!"
+    - text: "Howdy!"
+    - text: "Hi Ya!"
+  utter_goodbye:
+    - text: "Goodbye :("
+  utter_default:
+    - text: "Sorry, I didn't get that, can you rephrase?"
+  action_weather:
+    - text: "I want to check in Dixon"
+  utter_thanks:
+    - text: "thank you"
+    - text: "thanks"
+  utter_ask_location:
+    - text: "What location is it"
+
+actions:
+  - utter_greet
+  - utter_ask_location
+  - utter_default
+  - utter_goodbye
+  - action_weather
+  - utter_working_on_it
+  - utter_thanks
+
+session_config:
+  session_expiration_time: "60"
+  carry_over_slots_to_new_session: true

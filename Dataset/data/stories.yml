@@ -1,0 +1,43 @@
+version: "3.0"
+
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: weather for March 7th
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: GetWeather
+    entities:
+    - location: "Glasgow"
+    - date: "March 7th"
+  - action: utter_working_on_it
+  - action: action_weather
+
+- story: weather in Dixon
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: GetWeather
+    entities:
+    - location: "Dixon"
+    - date: "March 7th"
+  - action: action_weather
+
+- story: weather in sonoma 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: GetWeather
+    entities:
+    - location: "sonoma"
+    - date: "9th of this month"
+  - action: action_weather 
