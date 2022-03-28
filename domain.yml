@@ -31,8 +31,11 @@ responses:
   action_weather:
     - text: "I want to check in Dixon"
   utter_thanks:
-    - text: thank you
-    - text: thanks
+    - text: "thank you"
+    - text: "thanks"
+  utter_ask_location:
+   - text: "Please, tell me your location."
+   - text: "What location is it?"
 session_config:
   session_expiration_time: 60  # value in minutes
   carry_over_slots_to_new_session: true
