@@ -67,6 +67,11 @@
                 "entities": []
             },
             {
+                "text": "thank you",
+                "intent": "thanks",
+                "entities": []
+            },
+            {
                 "text": "I want to check the weather for March 7th?",
                 "intent": "GetWeather",
                 "entities": [
