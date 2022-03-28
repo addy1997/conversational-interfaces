@@ -6,7 +6,7 @@ actions:
   - utter_goodbye
   - action_weather
   - utter_working_on_it
-  - utter_welcome
+  - utter_thanks
 entities:
   - location
   - date
@@ -14,6 +14,7 @@ entities:
 intents:
   - greet
   - goodbye
+  - thanks
   - GetWeather
   - GetDetails
 responses:
@@ -29,10 +30,9 @@ responses:
     - text: "Sorry, I didn't get that, can you rephrase?"
   action_weather:
     - text: "I want to check in Dixon"
-  utter_welcome:
-    - text: You are welcome
-    - text: Anytime
-    - text: I got you
+  utter_thanks:
+    - text: thank you
+    - text: thanks
 session_config:
   session_expiration_time: 60  # value in minutes
   carry_over_slots_to_new_session: true
