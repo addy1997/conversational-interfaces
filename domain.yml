@@ -1,37 +1,3 @@
-version: "3.0"
-
-intents:
-  - greet
-  - goodbye
-  - GetWeather
-  - GetDetails
-
-entities:
-  - location
-  - date
-  - request
-
-slots:
-  location:
-    type: text
-
-responses:
-  utter_greet:
-    - text: "Hey there!"
-  utter_goodbye:
-    - text: "Goodbye :("
-  utter_default:
-    - text: "Sorry, I didn't get that, can you rephrase?"
-  action_weather:
-    - text: "I want to check in Dixon"
-
-  #action_weather:
-  #  - text: "I want to check the weather for date?"
-  #  - text: "I want to check in location"
-  #  - text: "Please check the weather for me in location on date"
-  #  - text: "how humid would it be"
-  #  - text: "What does the weather on date look like?"
-
 actions:
   - utter_greet
   - utter_ask_location
@@ -39,7 +5,38 @@ actions:
   - utter_goodbye
   - action_weather
   - utter_working_on_it
-
+  - utter_welcome
+entities:
+  - location
+  - date
+  - request
+intents:
+  - greet
+  - goodbye
+  - GetWeather
+  - GetDetails
+responses:
+  utter_greet:
+    - text: "Hey there!"
+    - text: "Hi!"
+    - text: "Hello!"
+    - text: "Howdy!"
+    - text: "Hi Ya!"
+  utter_goodbye:
+    - text: "Goodbye :("
+  utter_default:
+    - text: "Sorry, I didn't get that, can you rephrase?"
+  action_weather:
+    - text: "I want to check in Dixon"
+  utter_welcome:
+    - text: You are welcome
+    - text: Anytime
+    - text: I got you
 session_config:
   session_expiration_time: 60  # value in minutes
   carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  - location
+  - date
+  - request
