@@ -163,7 +163,13 @@
                     {
                         "start": 14,
                         "end": 14,
-                        "value": ["humidity","wind"],
+                        "value": "humidity",
+                        "entity": "request"
+                    },
+                    {
+                        "start": 14,
+                        "end": 14,
+                        "value": "wind",
                         "entity": "request"
                     }
                 ]
@@ -456,9 +462,15 @@
                 "intent": "GetDetails",
                 "entities": [
                     {
-                        "start": "",
-                        "end": "",
-                        "value": ["humidity","wind"],
+                        "start": 7,
+                        "end": 14,
+                        "value": "humidity",
+                        "entity": "request"
+                    },
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "value": "wind",
                         "entity": "request"
                     }
                 ]
@@ -468,8 +480,8 @@
                 "intent": "GetWeather",
                 "entities": [
                     {
-                        "start": "",
-                        "end": "",
+                        "start": 7,
+                        "end": 14,
                         "value": "Paris",
                         "entity": "location"
                     }
