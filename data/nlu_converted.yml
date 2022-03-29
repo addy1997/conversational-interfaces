@@ -1,0 +1,60 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - hey
+    - hello
+    - hi
+    - heya
+    - howdy
+    - hey there
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - bye bye
+    - see ya
+    - see you later
+- intent: GetWeather
+  examples: |
+    - I want [to chec]{"entity": "date", "value": "March 7th"}k the weather for March 7th?
+    - I want [to chec][{"entity": "location", "value": "Dixon"}, {"entity": "date", "value": "March 7th"}]k in Dixon.
+    - Please ch[eck the][{"entity": "location", "value": "sonoma"}, {"entity": "date", "value": "9th of this month"}] weather for me in sonoma on 9th of this month
+    - What does the [weather]{"entity": "date", "value": "March 14th"} on March 14th look like?
+    - Search in Mill[ Valley][{"entity": "location", "value": "Mill Valley"}, {"entity": "date", "value": "March 14th"}]
+    - How about the weather[ in Pal][{"entity": "location", "value": "Palo Alto"}, {"entity": "date", "value": "next Tuesday"}]o Alto on next Tuesday?
+    - Check f[or me p]{"entity": "location", "value": "Mountain View"}lease the weather in Mountain View.
+    - Do you kn[]{"entity": "location", "value": "Yountville"}ow the weather on March 9th?
+    - In Yountv[][{"entity": "date", "value": "March 9th"}, {"entity": "location", "value": "Yountville"}]ille, please.
+    - Please t[ell me ]{"entity": "date", "value": "March 8th"}the weather forecast for March 8th.
+    - Please c[heck th][{"entity": "location", "value": "Menlo Park"}, {"entity": "date", "value": "March 8th"}]e weather in Menlo Park.
+    - What's [the wea]{"entity": "date", "value": "Thursday next week"}ther like on Thursday next week?
+    - Look in[ Sebast][{"entity": "location", "value": "Sebastopol"}, {"entity": "date", "value": "Thursday next week"}]opol.
+    - What abou[t mill ][{"entity": "location", "value": "mill valley"}, {"entity": "date", "value": "Thursday next week"}]valley?
+    - Check in [Fairfax][{"entity": "location"}, {"entity": "date", "value": "March 9th"}].
+    - What[ will t][{"entity": "location", "value": "San Fran"}, {"entity": "date", "value": "4th of this month"}]he weather be like on 4th of this month in San Fran?
+    - Can you find [][{"entity": "location", "value": "Novato"}, {"entity": "date", "value": "March 13th"}]me the weather in Novato for March 13th?
+    - C[][{"entity": "location", "value": "Campbell"}, {"entity": "date", "value": "March 1st"}]an you help me check the weather for March 1st for Campbell?
+    - Please [check t]{"entity": "date", "value": "March 7th"}he weather on March 7th.
+    - Please [check S][{"entity": "location", "value": "San Jose"}, {"entity": "date", "value": "March 7th"}]an Jose.
+    - I need [the wea]{"entity": "date", "value": "the 7th"}ther forecast for the 7th.
+    - I need [the wea][{"entity": "location", "value": "Ciudad de Mexico"}, {"entity": "date", "value": "the 7th"}]ther forecast for the 7th.
+    - Can you[ check ]{"entity": "location", "value": "Paris"}the weather in Paris, France for me?
+    - I will[][{"entity": "location", "value": "Millbrae"}, {"entity": "date", "value": "March 6th"}] go to Millbrae soon. Can you check the weather in there on March 6th?
+    - I would like to check the weather.
+    - I would like Berkeley[.]{"entity": "location", "value": "Berkeley"}
+    - What a[][{"entity": "location", "value": "Berkeley"}, {"entity": "date", "value": "March"}]bout the March 6th.
+    - What about Lo[][{"entity": "location", "value": "Long Beach"}, {"entity": "date", "value": "13th of March"}]ng Beach on the 13th of March?
+    - i w[ant to ][{"entity": "location", "value": "calistoga"}, {"entity": "date", "value": "3rd of this month"}]check the weather in calistoga on the 3rd of this month.
+    - What will[][{"entity": "location", "value": "Pleasant Hill"}, {"entity": "date", "value": "9th of March"}] the weather be like in Pleasant Hill on the 9th of March?
+    - I would li[ke to c]{"entity": "location", "value": "Hercules"}heck the weather in Hercules.
+    - Can you tell[ me wh][{"entity": "location", "value": "Hercules"}, {"entity": "date", "value": "Wednesday next week"}]at the weather is suppose to be like on Wednesday next week in Hercules?
+- intent: GetDetails
+  examples: |
+    - how humid[ would ]{"entity": "request", "value": "humidity"}it be
+    - What about hum[idity a][{"entity": "request", "value": "humidity"}, {"entity": "request", "value": "wind"}]nd wind?
+    - Will it be windy? How[ humid?][{"entity": "request", "value": "humidity"}, {"entity": "request", "value": "wind"}]
+    - What wi[ll the ][{"entity": "request", "value": "humidity"}, {"entity": "request", "value": "wind"}]humidity be? Will it be windy?
+    - how[ humid ]{"entity": "request", "value": "humidity"}will it be?
+    - Will it be w[indy?]{"entity": "request", "value": "wind"}
